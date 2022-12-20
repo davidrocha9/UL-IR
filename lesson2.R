@@ -1,34 +1,23 @@
-# Lesson 2
+## Exercise 4
 
-### Exercise 4
-
-```
 c(4,3,2,1,0)
 4:0
 seq(4,0)
-```
 
-### Exercise 5
+## Exercise 5
 
-```
 (1:30)^3
-```
 
-### Exercise 6
+## Exercise 6
 
-```
 seq(2,20,2)^2
-```
 
-### Exercise 7
+## Exercise 7
 
-```
 sum((1:95)^3)
-```
 
-### Exercise 8
+## Exercise 8
 
-```
 #Experiment 1
 
 exp1_A = sample(0:1,10,rep=T)
@@ -57,4 +46,3 @@ mean_exp3 = c(0.5 - mean(c(exp3_A, exp3_B, exp3_C)))
 
 means = abs(c(mean_exp1, mean_exp2, mean_exp3))
 which.min(means)
-```

@@ -1,25 +1,18 @@
-# Lesson 3
+## Exercise 9
 
-### Ex. 9
-
-```
 (A=matrix(c(1,3,4,3,-2,-1,-1,2,6),3,3))
 (B=matrix(c(5,1,3),3,1))
 solve(A,B)
-```
 
-### Ex.10
+## Exercise 10
 
-```
 mean(iris[iris$Species == 'setosa',]$Petal.Width)
 mean(iris[iris$Species == 'versicolor',]$Petal.Width)
 mean(iris[iris$Species == 'virginica',]$Petal.Width)
 mean(iris$Petal.Width)
-```
 
-### Ex.11
+## Exercise 11
 
-```
 sumdiag = function(x)
 {
 	matrix_size = nrow(x)
@@ -32,4 +25,6 @@ sumdiag = function(x)
 
 	diag_matrix
 }
-```
+
+A = matrix(c(3,5,4,9),2,2)
+sumdiag(A)
